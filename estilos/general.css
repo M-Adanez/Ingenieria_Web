@@ -1,0 +1,31 @@
+body{
+    background-color: lightpink;
+    margin:0px;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Ubuntu";
+}
+
+
+header{
+    background-color: lightsalmon;
+    margin: 0px;
+}
+
+header h1{
+    display: inline;
+}
+
+header .botones_arriba{
+    display: inline;
+    
+}
+
+main{
+    flex: 1;
+}
+
+footer{
+    background-color: lightsalmon;
+}
