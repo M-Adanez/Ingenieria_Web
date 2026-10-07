@@ -1,0 +1,7 @@
+.formulario{
+    display: flex;
+    justify-content: center;
+}
+.formulario form input{
+    margin-top: 50px;
+}

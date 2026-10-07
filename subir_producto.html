@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir Producto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
+
+    <link rel="stylesheet" href="estilos/general.css">
+    <link rel="stylesheet" href="estilos/subir_producto.css">
+
+</head>
+<body>
+    <header>
+        <img src="res/logo.png" alt="" width="200px" height="200px">
+        <nav class="botones_arriba">
+            <ul>
+                <li>
+                    <a href="index.html">SUBASTAS</a>
+                </li>
+                <li>
+                    <a href="productos.html">Lista de Productos</a>
+                </li>
+                <li>
+                    <a href="subir_producto.html">Publicar Producto</a>
+                </li>
+            </ul>
+        </nav>
+
+        <a href="" class="boton_login"><img src="https://freesvg.org/img/abstract-user-flat-1.png" alt="Login" width="200px" height="200px"></a>
+    </header>
+
+    <main>
+        <div class="formulario">
+            <form action="">
+                <label for="usuario">Nombre de Usuario:</label>
+                <input type="text" name="usuario" id="usuario">
+
+                <br>
+                
+                <label for="nom_prod">Nombre del Producto:</label>
+                <input type="text" name="nom_prod" id="nom_prod">
+                
+                <br>
+                
+                <label for="prec_inic">Precio Inicial:</label>
+                <input type="number" name="prec_inic" id="prec_inic">
+                <select name="divisa" id="divisa">
+                    <option value="EUR" selected>€</option>
+                    <option value="USD">$</option>
+                </select>
+
+                <br>
+
+                <label for="fecha_cierre">Fecha de Cierre:</label>
+                <input type="datetime" name="fecha_cierre" id="fecha_cierre" min="2026-10-06" max="2027-10-06" value="2026-10-13">
+
+                <br>
+
+                <label for="descripcion">Descripcion del Producto:</label><br>
+                <input type="textarea" name="descripcion" id="descripcion">
+
+                <br>
+
+                <label for="imagen">Sube una imagen del Producto</label><br>
+                <input type="file" id="imagen" name="imagen" accept="image/*"> <!--todos los tipos de imagen -->
+
+                <br><br>
+
+                <button type="submit"> Publicar Oferta</button>
+            </form>
+
+        </div>
+        
+    </main>
+
+
+    <footer>
+        <div class="datos">
+            <h1>Sobre Nosotros</h1>
+            <p><strong>Tlf:</strong> +34 612 34 56 78</p>
+            <p><strong>Email:</strong> tiendadesubastas@dedonosti.eus</p>
+            <p>¿Quienes Somos?</p>
+            <p>Trabaja con Nosotros</p>
+            <p>Política de Privacidad</p>
+        </div>
+        
+        <div class="div_mapa">
+            <iframe 
+                src="https://maps.google.com/maps?width=100%26height=600&amp;hl=es&amp;q=C/%20Garibay,%2018%20-%2020004%20Donostia-San%20Sebasti%C3%A1n%20(Gipuzkoa)%20-%20ESPA%C3%91A+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
+                scrolling="no">
+            </iframe>
+            <p>ENCUENTRANOS!!</p>
+        </div>
+
+    </footer>
+
+</body>
+</html>

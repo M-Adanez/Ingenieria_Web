@@ -1,0 +1,35 @@
+
+
+.seccion{
+    display: flex;
+    align-items: center;
+}
+
+.seccion img{
+    height: 300px;
+    margin: 0 10% 0 10%
+
+}
+.seccion p{
+    font-size: 40px;  
+    margin: 0 10% 0 10%;
+}
+
+.seccion:nth-of-type(even) p{
+    background-color: lightpink;
+    
+}
+.seccion:nth-of-type(even) img{
+    background-color: lightpink;
+}
+
+.seccion:nth-of-type(odd) p{
+    background-color: pink;
+}
+
+.seccion:nth-of-type(odd) img{
+    background-color: pink;
+}
+
+
+

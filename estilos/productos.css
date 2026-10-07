@@ -1,0 +1,29 @@
+.contenedor_productos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.producto{
+    width: 25%;
+    display: flex;
+    /* flex: 1 1 0 ; */
+    flex-direction: column;
+    /* border:2px solid red; */
+    padding: 2%;
+    margin: 5px;
+    justify-content: space-between;
+    background-color: aquamarine;
+
+}
+
+
+
+
+
+.producto img{
+    height: 200px;
+    width: auto;
+    align-self: center; /*sino se estira */
+}
