@@ -13,17 +13,27 @@
     /* border:2px solid red; */
     padding: 2%;
     margin: 5px;
+    align-items: center;
     justify-content: space-between;
     background-color: aquamarine;
-
+    font-size: 20px;
+}
+.producto img{
+    max-width: 80%;
+    height: 30%;
+    align-self: center; /*sino se estira */
 }
 
-
-
-
-
-.producto img{
-    height: 200px;
+.producto .d_compra {
+    display: flex;
+    flex-direction: column;
+    justify-items : center;
+    align-items: center;
+    margin: 0px;
+}
+.producto .d_compra img{
+    height: 100px;
     width: auto;
-    align-self: center; /*sino se estira */
+    
+    justify-self: center;
 }

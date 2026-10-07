@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
 </head>
 <body>
     <header>
-        <img src="res/logo.png" alt="" width="200px" height="200px">
+        <img src="res/logo.png" alt=""  >
         <nav class="botones_arriba">
             <ul>
                 <li>
@@ -31,23 +31,27 @@
             </ul>
         </nav>
 
-        <a href="" class="boton_login"><img src="https://freesvg.org/img/abstract-user-flat-1.png" alt="Login" width="200px" height="200px"></a>
+        <a href="" class="boton_login"><img src="https://freesvg.org/img/abstract-user-flat-1.png" alt="Login"  ></a>
     </header>
 
     <main>
         <div class="formulario">
-            <form action="">
+
+            <form>
                 <label for="usuario">Nombre de Usuario:</label>
+                <br>
                 <input type="text" name="usuario" id="usuario">
 
                 <br>
                 
                 <label for="nom_prod">Nombre del Producto:</label>
+                <br>
                 <input type="text" name="nom_prod" id="nom_prod">
                 
                 <br>
                 
                 <label for="prec_inic">Precio Inicial:</label>
+                <br>
                 <input type="number" name="prec_inic" id="prec_inic">
                 <select name="divisa" id="divisa">
                     <option value="EUR" selected>€</option>
@@ -57,16 +61,19 @@
                 <br>
 
                 <label for="fecha_cierre">Fecha de Cierre:</label>
-                <input type="datetime" name="fecha_cierre" id="fecha_cierre" min="2026-10-06" max="2027-10-06" value="2026-10-13">
+                <br>
+                <input type="date" name="fecha_cierre" id="fecha_cierre" min="2026-10-06" max="2027-10-06" value="2026-10-13">
 
                 <br>
 
                 <label for="descripcion">Descripcion del Producto:</label><br>
-                <input type="textarea" name="descripcion" id="descripcion">
+                <br>
+                <textarea name="descripcion" id="descripcion" rows="3" cols="30"></textarea>
 
                 <br>
 
                 <label for="imagen">Sube una imagen del Producto</label><br>
+                <br>
                 <input type="file" id="imagen" name="imagen" accept="image/*"> <!--todos los tipos de imagen -->
 
                 <br><br>
@@ -91,8 +98,7 @@
         
         <div class="div_mapa">
             <iframe 
-                src="https://maps.google.com/maps?width=100%26height=600&amp;hl=es&amp;q=C/%20Garibay,%2018%20-%2020004%20Donostia-San%20Sebasti%C3%A1n%20(Gipuzkoa)%20-%20ESPA%C3%91A+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed" 
-                scrolling="no">
+                src="https://maps.google.com/maps?width=100%26height=600&amp;hl=es&amp;q=C/%20Garibay,%2018%20-%2020004%20Donostia-San%20Sebasti%C3%A1n%20(Gipuzkoa)%20-%20ESPA%C3%91A+(Mi%20nombre%20de%20egocios)&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
             </iframe>
             <p>ENCUENTRANOS!!</p>
         </div>

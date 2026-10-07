@@ -4,6 +4,9 @@
     /* border:3px solid red; */
 }
 
+.botones_arriba ul li a{
+    font-size: 40px;
+}
 body{
     background-color: lightskyblue;
     margin:0px;
