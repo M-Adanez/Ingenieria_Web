@@ -1,6 +1,9 @@
 .formulario{
     display: flex;
     justify-content: center;
+    background-color: aquamarine;
+    padding: 3%;
+
 }
 
 .formulario form input , .formulario form textarea{
@@ -9,4 +12,8 @@
 
 button{
     background-color:lightblue;
+}
+hr{
+    background-color:aqua;
+    height: 2px;
 }
